@@ -1,3 +1,8 @@
+.vscode
+.DS_Store
+# likely remove package-lock.json from .gitignore
+package-lock.json
+
 # Logs
 logs
 *.log
