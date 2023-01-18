@@ -8,5 +8,10 @@
         "title": "groceries",
         "text": "pick up ingredients for stew",
         "note_id": "48cbbc18-2596-4774-be09-cfd65b51c2aa"
+    },
+    {
+        "title": "test",
+        "text": "something",
+        "note_id": "39bfe6a0-07b0-4af7-ac34-e9126cbc40ed"
     }
 ]
