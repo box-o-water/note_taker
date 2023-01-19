@@ -5,7 +5,7 @@ const {
   readFromFile,
   readAndAppend,
   writeToFile,
-} = require('../helpers/fsUtils');
+} = require('../../public/helpers/fsUtils');
 
 // GET Route for retrieving all the notes
 router.get('/notes', (req, res) => {

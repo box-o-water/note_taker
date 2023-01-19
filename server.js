@@ -1,7 +1,8 @@
 const express = require('express');
-const path = require('path');
+
 const { clog } = require('./public/middleware/clog');
-const api = require('./public/routes/api.js');
+const api = require('./routes/api');
+const html = require('./routes/html');
 
 const PORT = process.env.PORT || 3001;
 
@@ -14,24 +15,10 @@ app.use(clog);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/api', api);
-
 app.use(express.static('public'));
 
-// GET Route for homepage
-app.get('/', (req, res) =>
-  res.sendFile(path.join(__dirname, './public/index.html'))
-);
-
-// GET Route for notes page
-app.get('/notes', (req, res) =>
-  res.sendFile(path.join(__dirname, './public/notes.html'))
-);
-
-// Wildcard route to direct users back to homepage
-app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, './public/index.html'))
-);
+app.use('/api', api);
+app.use('/', html);
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
