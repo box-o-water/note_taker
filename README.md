@@ -7,11 +7,12 @@
 
 ## Description
 
-TODO
+A note taker app, deployed to Heroku, using an Express.js back end. Starter code was provided. Much of the remaining code was pulled directly from bootcamp class examples. The challenge for me was to troubleshoot file structure and pathing to get all functionality to work.
 
-![preview TODO](/assets/images/note_taker_preview.png)
+![preview](/public/assets/images/note_taker_preview1.png)
+![preview](/public/assets/images/note_taker_preview2.png)
 
-Click [here TODO]() to see the deployed application.
+Click [here](https://dry-crag-52876.herokuapp.com/) to see the deployed application.
 
 ## Table of Contents
 
@@ -57,11 +58,15 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Installation
 
-TODO
+* Install `nvm`
+* Use `nvm` to install `npm`
+* $ git clone git@github.com:box-o-water/note_taker.git
+* $ npm install
 
 ## Usage
 
-TODO
+* $ npm start
+* Visit http://localhost:3001/
 
 ## Contributing
 
@@ -69,7 +74,7 @@ To contribute, create an issue in this repo, or fork this repo and create a pull
 
 # Tests
 
-TODO
+N/A
 
 # Questions
 
