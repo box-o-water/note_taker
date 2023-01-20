@@ -2,11 +2,11 @@
     {
         "title": "laundry",
         "text": "don't forget to wash clothes this weekend",
-        "note_id": "b093b2f6-19e9-49d5-8b3d-c2c5ff51c420"
+        "id": "b093b2f6-19e9-49d5-8b3d-c2c5ff51c420"
     },
     {
         "title": "groceries",
         "text": "pick up ingredients for stew",
-        "note_id": "48cbbc18-2596-4774-be09-cfd65b51c2aa"
+        "id": "48cbbc18-2596-4774-be09-cfd65b51c2aa"
     }
 ]
